@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [crm_lead_firstname](crm_lead_firstname/) | 18.0.1.0.0 |  | Specify split names for contacts in leads
+[crm_stage_probability](crm_stage_probability/) | 18.0.1.0.0 |  | Define fixed probability on the stages
 
 [//]: # (end addons)
 
