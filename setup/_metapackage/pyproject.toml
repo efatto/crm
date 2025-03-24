@@ -1,7 +1,8 @@
 [project]
 name = "odoo-addons-oca-crm"
-version = "18.0.20250307.0"
+version = "18.0.20250324.0"
 dependencies = [
+    "odoo-addon-crm_lead_code==18.0.*",
     "odoo-addon-crm_lead_firstname==18.0.*",
     "odoo-addon-crm_phonecall==18.0.*",
     "odoo-addon-crm_stage_probability==18.0.*",
