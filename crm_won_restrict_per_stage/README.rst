@@ -78,6 +78,7 @@ Contributors
 
       -  Carolina Fernandez
       -  Pedro M. Baeza
+      -  Víctor Martínez
 
 Maintainers
 -----------
@@ -92,13 +93,13 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-.. |maintainer-carolinafernandez-tecnativa| image:: https://github.com/carolinafernandez-tecnativa.png?size=40px
-    :target: https://github.com/carolinafernandez-tecnativa
-    :alt: carolinafernandez-tecnativa
+.. |maintainer-victoralmau| image:: https://github.com/victoralmau.png?size=40px
+    :target: https://github.com/victoralmau
+    :alt: victoralmau
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-carolinafernandez-tecnativa| 
+|maintainer-victoralmau| 
 
 This module is part of the `OCA/crm <https://github.com/OCA/crm/tree/18.0/crm_won_restrict_per_stage>`_ project on GitHub.
 
