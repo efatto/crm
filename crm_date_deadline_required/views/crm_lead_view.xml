@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2025 Moduon Team S.L.
      License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl-3.0) -->
-<data>
+<odoo>
     <record id="crm_lead_view_form_inherit" model="ir.ui.view">
         <field name="name">Date deadline required form</field>
         <field name="model">crm.lead</field>
@@ -14,4 +14,17 @@
             </xpath>
         </field>
     </record>
-</data>
+    <record id="quick_create_opportunity_form_inherit" model="ir.ui.view">
+        <field name="name">Date deadline required quick create form</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.quick_create_opportunity_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='phone']" position="after">
+                <field
+                    name="date_deadline"
+                    attrs="{'required': [('type', '=', 'opportunity')]}"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
