@@ -11,6 +11,7 @@ setuptools.setup(
         'odoo-addon-crm_claim>=16.0dev,<16.1dev',
         'odoo-addon-crm_claim_code>=16.0dev,<16.1dev',
         'odoo-addon-crm_claim_type>=16.0dev,<16.1dev',
+        'odoo-addon-crm_date_deadline_required>=16.0dev,<16.1dev',
         'odoo-addon-crm_exception>=16.0dev,<16.1dev',
         'odoo-addon-crm_industry>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_code>=16.0dev,<16.1dev',
