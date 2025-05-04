@@ -18,6 +18,7 @@ org_name: Odoo Community Association (OCA)
 org_slug: OCA
 rebel_module_groups:
 - crm_date_deadline_required
+- crm_partner_required
 repo_description: 'TODO: add repo description.'
 repo_name: crm
 repo_slug: crm
