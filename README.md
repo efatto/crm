@@ -27,17 +27,17 @@ addon | version | maintainers | summary
 [crm_industry](crm_industry/) | 14.0.1.0.0 |  | Link leads/opportunities to industries
 [crm_l10n_eu_nace](crm_l10n_eu_nace/) | 14.0.1.0.0 |  | European NACE categories in CRM
 [crm_lead_code](crm_lead_code/) | 14.0.1.0.0 |  | Sequential Code for Leads / Opportunities
-[crm_lead_currency](crm_lead_currency/) | 14.0.1.0.1 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) | On leads/opportunities, add the amount in the customer's currency.
+[crm_lead_currency](crm_lead_currency/) | 14.0.1.0.1 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> | On leads/opportunities, add the amount in the customer's currency.
 [crm_lead_firstname](crm_lead_firstname/) | 14.0.1.0.2 |  | Specify split names for contacts in leads
-[crm_lead_search_archive](crm_lead_search_archive/) | 14.0.1.0.1 | [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Add a filter to search both in active/archive lead
+[crm_lead_search_archive](crm_lead_search_archive/) | 14.0.1.0.1 | <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Add a filter to search both in active/archive lead
 [crm_lead_vat](crm_lead_vat/) | 14.0.1.1.0 |  | Add VAT field to leads
 [crm_location](crm_location/) | 14.0.1.0.0 |  | CRM location
 [crm_location_nuts](crm_location_nuts/) | 14.0.1.0.1 |  | NUTS Regions in CRM
-[crm_phone_extension](crm_phone_extension/) | 14.0.1.0.1 | [![bizzappdev](https://github.com/bizzappdev.png?size=30px)](https://github.com/bizzappdev) | CRM Phone Number Extension
+[crm_phone_extension](crm_phone_extension/) | 14.0.1.0.1 | <a href='https://github.com/bizzappdev'><img src='https://github.com/bizzappdev.png' width='32' height='32' style='border-radius:50%;' alt='bizzappdev'/></a> | CRM Phone Number Extension
 [crm_phonecall](crm_phonecall/) | 14.0.1.1.0 |  | CRM Phone Calls
 [crm_phonecall_summary_predefined](crm_phonecall_summary_predefined/) | 14.0.1.0.0 |  | Allows to choose from a defined summary list
 [crm_project](crm_project/) | 14.0.1.1.0 |  | Create Tasks from Leads/Opportunities
-[crm_security_group](crm_security_group/) | 14.0.1.1.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Add new group in Sales to show only CRM
+[crm_security_group](crm_security_group/) | 14.0.1.1.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Add new group in Sales to show only CRM
 [crm_stage_probability](crm_stage_probability/) | 14.0.1.0.0 |  | Define fixed probability on the stages
 [marketing_crm_partner](marketing_crm_partner/) | 14.0.1.0.1 |  | Copy tracking fields from leads to partners
 
