@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [crm_claim](crm_claim/) | 18.0.1.0.0 |  | Track your customers/vendors claims and grievances.
 [crm_lead_code](crm_lead_code/) | 18.0.1.0.0 |  | Sequential Code for Leads / Opportunities
 [crm_lead_firstname](crm_lead_firstname/) | 18.0.1.0.0 |  | Specify split names for contacts in leads
-[crm_lead_product](crm_lead_product/) | 18.0.1.0.0 |  | Adds a lead line in the lead/opportunity model in odoo
+[crm_lead_product](crm_lead_product/) | 18.0.1.0.1 |  | Adds a lead line in the lead/opportunity model in odoo
 [crm_phonecall](crm_phonecall/) | 18.0.1.0.2 |  | CRM Phone Calls
 [crm_phonecall_planner](crm_phonecall_planner/) | 18.0.1.0.0 |  | Schedule phone calls according to some criteria
 [crm_project_create](crm_project_create/) | 18.0.1.0.1 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Allow create projects from lead/opportunity
