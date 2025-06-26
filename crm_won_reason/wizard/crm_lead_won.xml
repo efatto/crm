@@ -35,5 +35,4 @@
         <field name="view_id" ref="crm_lead_win_view_form" />
         <field name="target">new</field>
     </record>
-
 </odoo>
