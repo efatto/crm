@@ -17,6 +17,7 @@ setuptools.setup(
         'odoo-addon-crm_lead_code>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_currency>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_firstname>=16.0dev,<16.1dev',
+        'odoo-addon-crm_lead_product>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_search_archive>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_to_task>=16.0dev,<16.1dev',
         'odoo-addon-crm_lead_vat>=16.0dev,<16.1dev',
