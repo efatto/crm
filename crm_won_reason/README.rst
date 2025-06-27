@@ -58,6 +58,7 @@ Contributors
 ------------
 
 - Anna Janiszewska <anna.janiszewska@camptocamp.com>
+- Alejandro Parrales <alejandro17parrales@gmail.com>
 
 Maintainers
 -----------
