@@ -7,3 +7,6 @@
   * Víctor Martínez
 
 * Anand Kansagra <kansagraanand@hotmail.com>
+
+* `Trey Kilobytes de Soluciones SL <https://www.trey.es>`__:
+  * Vicent Cubells <vicent@trey.es>

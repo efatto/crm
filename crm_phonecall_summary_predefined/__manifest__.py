@@ -4,10 +4,11 @@
 {
     "name": "Restricted Summary for Phone Calls",
     "summary": "Allows to choose from a defined summary list",
-    "version": "15.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Customer Relationship Management",
     "website": "https://github.com/OCA/crm",
     "author": "Tecnativa, Odoo Community Association (OCA)",
+    "maintainers": ["cubells"],
     "license": "AGPL-3",
     "installable": True,
     "post_init_hook": "convert_names_to_many2one",
