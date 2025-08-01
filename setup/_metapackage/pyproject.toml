@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-crm"
-version = "18.0.20250725.0"
+version = "18.0.20250801.0"
 dependencies = [
     "odoo-addon-crm_claim==18.0.*",
     "odoo-addon-crm_lead_code==18.0.*",
@@ -16,6 +16,7 @@ dependencies = [
     "odoo-addon-crm_project_create==18.0.*",
     "odoo-addon-crm_security_group==18.0.*",
     "odoo-addon-crm_stage_probability==18.0.*",
+    "odoo-addon-crm_team_parent==18.0.*",
     "odoo-addon-crm_won_restrict_per_stage==18.0.*",
     "odoo-addon-marketing_crm_partner==18.0.*",
 ]
