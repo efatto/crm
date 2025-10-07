@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [crm_lead_firstname](crm_lead_firstname/) | 18.0.1.0.0 |  | Specify split names for contacts in leads
 [crm_lead_product](crm_lead_product/) | 18.0.1.0.1 |  | Adds a lead line in the lead/opportunity model in odoo
 [crm_lead_to_task](crm_lead_to_task/) | 18.0.1.1.0 |  | Create Tasks from Leads/Opportunities
+[crm_lead_vat](crm_lead_vat/) | 18.0.1.0.0 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add VAT field to leads
 [crm_location](crm_location/) | 18.0.1.0.1 |  | CRM location
 [crm_partner_assign](crm_partner_assign/) | 18.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Assign a Partner to an Opportunity/Lead/Partner to indicate Partnership
 [crm_partner_required](crm_partner_required/) | 18.0.1.0.2 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Field partner required in the opportunity
