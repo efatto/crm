@@ -103,7 +103,7 @@ class TestCrmStageMultiTeam_NoLeadTeam(BaseCommon):
             .with_context(
                 default_team_id=self.team_a.id,
             )
-            ._read_group_stage_ids(empty_stages, domain=[], order="sequence, id")
+            ._read_group_stage_ids(empty_stages, domain=[])
         )
         self.assertIn(self.stage_only_a, stage)
         self.assertIn(self.stage_both, stage)
@@ -116,7 +116,7 @@ class TestCrmStageMultiTeam_NoLeadTeam(BaseCommon):
             .with_context(
                 default_team_id=self.team_b.id,
             )
-            ._read_group_stage_ids(empty_stages, domain=[], order="sequence, id")
+            ._read_group_stage_ids(empty_stages, domain=[])
         )
         self.assertIn(self.stage_only_b, stage)
         self.assertIn(self.stage_both, stage)
@@ -125,7 +125,7 @@ class TestCrmStageMultiTeam_NoLeadTeam(BaseCommon):
 
         # No team in context
         stage = self.Lead.with_user(self.user_a)._read_group_stage_ids(
-            empty_stages, domain=[], order="sequence, id"
+            empty_stages, domain=[]
         )
         self.assertIn(self.stage_global, stage)
         self.assertNotIn(self.stage_only_a, stage)

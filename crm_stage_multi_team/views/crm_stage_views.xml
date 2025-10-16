@@ -18,14 +18,14 @@
         <field name="inherit_id" ref="crm.crm_stage_form" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='team_id']" position="attributes">
-                    <attribute name="invisible">1</attribute>
-                </xpath>
+                <attribute name="invisible">1</attribute>
+            </xpath>
             <field name="team_id" position="after">
                 <field
                     name="team_ids"
                     widget="many2many_tags"
                     options='{"no_open": True, "no_create": True}'
-                    attrs="{'invisible': [('team_count', '&lt;=', 1)]}"
+                    invisible="team_count >= 1"
                     kanban_view_ref="%(sales_team.crm_team_view_kanban)s"
                 />
             </field>

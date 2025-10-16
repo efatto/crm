@@ -1,6 +1,6 @@
 # Copyright 2025 Teacnativa - Eduardo Ezerouali
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl)
-from odoo import SUPERUSER_ID, api, models
+from odoo import api, models
 from odoo.tools import config
 
 
@@ -38,13 +38,13 @@ class CrmLead(models.Model):
         return self.env["crm.stage"].search(search_domain, order=order, limit=limit)
 
     @api.model
-    def _read_group_stage_ids(self, stages, domain, order):
+    def _read_group_stage_ids(self, stages, domain):
         # adapt the method for the field team_ids
         test_condition = config["test_enable"] and not self.env.context.get(
             "test_crm_stage_multi_team"
         )
         if test_condition or self.env.context.get("no_crm_stage_multi_team"):
-            return super()._read_group_stage_ids(stages, domain, order)
+            return super()._read_group_stage_ids(stages, domain)
         team_id = self._context.get("default_team_id")
         if team_id:
             search_domain = [
@@ -57,7 +57,5 @@ class CrmLead(models.Model):
         else:
             search_domain = ["|", ("id", "in", stages.ids), ("team_ids", "=", False)]
         # perform search
-        stage_ids = stages._search(
-            search_domain, order=order, access_rights_uid=SUPERUSER_ID
-        )
+        stage_ids = stages._search(search_domain, order=stages._order)
         return stages.browse(stage_ids)
