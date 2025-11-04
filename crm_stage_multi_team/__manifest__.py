@@ -12,6 +12,7 @@
     "depends": ["crm"],
     "data": [
         "views/crm_stage_views.xml",
+        "views/crm_lead_views.xml",
     ],
     "post_init_hook": "post_init_hook",
 }
