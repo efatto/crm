@@ -31,6 +31,7 @@ setuptools.setup(
         'odoo-addon-crm_salesperson_planner>=16.0dev,<16.1dev',
         'odoo-addon-crm_salesperson_planner_sale>=16.0dev,<16.1dev',
         'odoo-addon-crm_security_group>=16.0dev,<16.1dev',
+        'odoo-addon-crm_stage_mail>=16.0dev,<16.1dev',
         'odoo-addon-crm_stage_multi_team>=16.0dev,<16.1dev',
         'odoo-addon-crm_stage_probability>=16.0dev,<16.1dev',
         'odoo-addon-crm_won_restrict_per_stage>=16.0dev,<16.1dev',
