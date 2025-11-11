@@ -2,8 +2,10 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 from odoo.tests.common import TransactionCase
 
+from odoo.addons.mail.tests.common import MailCase
 
-class TestCrmStageMail(TransactionCase):
+
+class TestCrmStageMail(TransactionCase, MailCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -37,6 +39,7 @@ class TestCrmStageMail(TransactionCase):
                 "stage_id": self.stage_new.id,
             }
         )
+        self.flush_tracking()
         self.assertNotIn("auto_comment", lead.message_ids.mapped("message_type"))
 
     def test_crm_lead_qualified(self):
@@ -47,6 +50,7 @@ class TestCrmStageMail(TransactionCase):
                 "stage_id": self.stage_qualified.id,
             }
         )
+        self.flush_tracking()
         lead_message = lead.message_ids.filtered(
             lambda m: m.message_type == "auto_comment"
         )
