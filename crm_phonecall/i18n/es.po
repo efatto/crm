@@ -423,7 +423,6 @@ msgstr "Si está marcado, nuevos mensajes requieren su atención."
 
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_error
-#: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si está marcado, algunos mensajes tienen error de entrega."
 
@@ -706,8 +705,7 @@ msgstr "Llamadas por usuario"
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_report_crm_phonecall_filter
 msgid "Phone calls that are assigned to one of the sale teams I manage"
 msgstr ""
-"Las llamadas de teléfono están asignadas a uno de los equipos que yo "
-"gestiono"
+"Las llamadas de teléfono están asignadas a uno de los equipos que yo gestiono"
 
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_report_crm_phonecall_filter
@@ -768,15 +766,15 @@ msgid "Priority"
 msgstr "Prioridad"
 
 #. module: crm_phonecall
+#: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__user_id
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_crm_case_phonecalls_filter
 msgid "Responsible"
 msgstr "Responsable"
-
-#. module: crm_phonecall
-#: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr ""
 
 #. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__team_id
@@ -888,11 +886,11 @@ msgstr "Estas personas recibirán un email."
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__campaign_id
 msgid ""
-"This is a name that helps you keep track of your different campaign "
-"efforts, e.g. Fall_Drive, Christmas_Special"
+"This is a name that helps you keep track of your different campaign efforts, "
+"e.g. Fall_Drive, Christmas_Special"
 msgstr ""
-"Este es un nombre que le ayuda a mantener un seguimiento de sus esfuerzos "
-"en campañas diferentes, por ejemplo, Fall_Drive, Christmas_Special"
+"Este es un nombre que le ayuda a mantener un seguimiento de sus esfuerzos en "
+"campañas diferentes, por ejemplo, Fall_Drive, Christmas_Special"
 
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__medium_id
@@ -907,8 +905,8 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
-"Esta es la fuente del enlace, por ejemplo, motor de búsqueda, otro dominio "
-"o nombre de lista de correo electrónico"
+"Esta es la fuente del enlace, por ejemplo, motor de búsqueda, otro dominio o "
+"nombre de lista de correo electrónico"
 
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_crm_case_phonecalls_filter

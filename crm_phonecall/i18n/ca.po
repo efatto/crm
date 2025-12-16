@@ -30,22 +30,26 @@ msgstr ""
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.crm_case_phone_form_view
 msgid ""
-"<span class=\"o_form_label o_td_label o_address_type\" name=\"address_name\">\n"
+"<span class=\"o_form_label o_td_label o_address_type\" "
+"name=\"address_name\">\n"
 "                                <span>Address</span>\n"
 "                            </span>"
 msgstr ""
-"<span class=\"o_form_label o_td_label o_address_type\" name=\"address_name\">\r\n"
+"<span class=\"o_form_label o_td_label o_address_type\" "
+"name=\"address_name\">\r\n"
 "                                <span>Direcció</span>\r\n"
 "                            </span>"
 
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.phonecall_to_phonecall_view
 msgid ""
-"<span class=\"o_form_label o_td_label o_address_type\" name=\"address_name\">\n"
+"<span class=\"o_form_label o_td_label o_address_type\" "
+"name=\"address_name\">\n"
 "                            <span>Address</span>\n"
 "                        </span>"
 msgstr ""
-"<span class=\"o_form_label o_td_label o_address_type\" name=\"address_name\">\r\n"
+"<span class=\"o_form_label o_td_label o_address_type\" "
+"name=\"address_name\">\r\n"
 "                            <span>Direcció</span>\r\n"
 "                        </span>"
 
@@ -113,14 +117,14 @@ msgstr "Nombre d'annexes"
 #: model:ir.model.fields,help:crm_phonecall.field_res_config_settings__group_show_form_view
 msgid "By default form is disabled for calls, with this group it is enabled."
 msgstr ""
-"Per defecte, el formulari està desactivat per a trucades, amb aquest grup està "
-"habilitat."
+"Per defecte, el formulari està desactivat per a trucades, amb aquest grup "
+"està habilitat."
 
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.res_config_settings_view_form
 msgid ""
-"By default form view is disabled for calls, with this setting it is enabled for "
-"all users."
+"By default form view is disabled for calls, with this setting it is enabled "
+"for all users."
 msgstr ""
 "Per defecte, la vista de formulari està desactivada per a les trucades, amb "
 "aquesta configuració s'habilita per a tots els usuaris."
@@ -405,7 +409,6 @@ msgstr "Si està marcat, els missatges nous requereixen la vostra atenció."
 
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_error
-#: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
 
@@ -592,18 +595,21 @@ msgid ""
 "            by your sales team and follow up based on their summary."
 msgstr ""
 "Odoo us permet definir fàcilment totes les trucades a fer\n"
-"             pel vostre equip de vendes i fer un seguiment basat en el seu resum."
+"             pel vostre equip de vendes i fer un seguiment basat en el seu "
+"resum."
 
 #. module: crm_phonecall
 #: model_terms:ir.actions.act_window,help:crm_phonecall.crm_case_categ_phone_incoming0
 msgid ""
 "Odoo allows you to log inbound calls on the fly to track the\n"
-"            history of the communication with a customer or to inform another\n"
+"            history of the communication with a customer or to inform "
+"another\n"
 "            team member."
 msgstr ""
 "Odoo us permet registrar les trucades entrants sobre la marxa per fer-ne un "
 "seguiment\n"
-"             historial de la comunicació amb un client o per informar un altre\n"
+"             historial de la comunicació amb un client o per informar un "
+"altre\n"
 "             membre de l'equip."
 
 #. module: crm_phonecall
@@ -687,7 +693,8 @@ msgstr "Trucades per usuari/ària"
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_report_crm_phonecall_filter
 msgid "Phone calls that are assigned to one of the sale teams I manage"
-msgstr "Trucades telefòniques assignades a un dels equips de vendes que gestiono"
+msgstr ""
+"Trucades telefòniques assignades a un dels equips de vendes que gestiono"
 
 #. module: crm_phonecall
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_report_crm_phonecall_filter
@@ -748,15 +755,15 @@ msgid "Priority"
 msgstr "Prioritat"
 
 #. module: crm_phonecall
+#: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__user_id
 #: model_terms:ir.ui.view,arch_db:crm_phonecall.view_crm_case_phonecalls_filter
 msgid "Responsible"
 msgstr "Responsable"
-
-#. module: crm_phonecall
-#: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__message_has_sms_error
-msgid "SMS Delivery error"
-msgstr ""
 
 #. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__team_id
@@ -871,8 +878,8 @@ msgid ""
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
 msgstr ""
-"Aquest és un nom que us ajuda a fer un seguiment dels diferents esforços de la "
-"vostra campanya, p.e Tardor, especial de Nadal"
+"Aquest és un nom que us ajuda a fer un seguiment dels diferents esforços de "
+"la vostra campanya, p.e Tardor, especial de Nadal"
 
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__medium_id
@@ -882,8 +889,8 @@ msgstr "Aquest és el mètode d'enviament, p.e postal, email, banner"
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__source_id
 msgid ""
-"This is the source of the link, e.g. Search Engine, another domain, or name of "
-"email list"
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
 msgstr ""
 "Aquest és l'origen de l'enllaç, p.e. Un cercador, un altre domini, o un nom "
 "d'una llista de correu"
@@ -930,8 +937,8 @@ msgid ""
 "You can use the import feature to massively import a new list of\n"
 "            prospects to qualify."
 msgstr ""
-"Podeu utilitzar la funció d'importació per importar massivament una llista nova "
-"de\n"
+"Podeu utilitzar la funció d'importació per importar massivament una llista "
+"nova de\n"
 "             prospectes per qualificar."
 
 #. module: crm_phonecall
