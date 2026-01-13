@@ -21,13 +21,13 @@ CRM Claim Types
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcrm-lightgray.png?logo=github
-    :target: https://github.com/OCA/crm/tree/17.0/crm_claim_type
+    :target: https://github.com/OCA/crm/tree/18.0/crm_claim_type
     :alt: OCA/crm
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/crm-17-0/crm-17-0-crm_claim_type
+    :target: https://translation.odoo-community.org/projects/crm-18-0/crm-18-0-crm_claim_type
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/crm&target_branch=17.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/crm&target_branch=18.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
@@ -96,6 +96,7 @@ Contributors
 - `APSL-Nagarro <https://apsl.tech>`__:
 
   - Bernat Obrador <bobrador@apsl.net>
+- Lucía Echeverría <luciaecheverria@avanzosc.es>
 
 Maintainers
 -----------
@@ -110,6 +111,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/crm <https://github.com/OCA/crm/tree/17.0/crm_claim_type>`_ project on GitHub.
+This module is part of the `OCA/crm <https://github.com/OCA/crm/tree/18.0/crm_claim_type>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
