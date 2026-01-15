@@ -17,13 +17,13 @@ CRM Project Task
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcrm-lightgray.png?logo=github
-    :target: https://github.com/OCA/crm/tree/17.0/crm_project_task
+    :target: https://github.com/OCA/crm/tree/18.0/crm_project_task
     :alt: OCA/crm
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/crm-17-0/crm-17-0-crm_project_task
+    :target: https://translation.odoo-community.org/projects/crm-18-0/crm-18-0-crm_project_task
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/crm&target_branch=17.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/crm&target_branch=18.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
@@ -48,7 +48,7 @@ To configure this module, you need to:
 - Go to Project
 - Create a project with right configuration in order that all salesman
   have access (usually all employees)
-- Go to CRM > Configuration > Project
+- Go to CRM > Settings > Configuration > Projects
 - Set crm default project
 
 Usage
@@ -70,7 +70,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/crm/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/crm/issues/new?body=module:%20crm_project_task%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/crm/issues/new?body=module:%20crm_project_task%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -87,6 +87,7 @@ Contributors
 
 - Emilio Pascual (`Moduon <https://www.moduon.team/>`__)
 - Rafael Blasco (`Moduon <https://www.moduon.team/>`__)
+- Andrii Kompaniiets (`Moduon <https://www.moduon.team/>`__)
 
 Maintainers
 -----------
@@ -104,11 +105,17 @@ promote its widespread use.
 .. |maintainer-EmilioPascual| image:: https://github.com/EmilioPascual.png?size=40px
     :target: https://github.com/EmilioPascual
     :alt: EmilioPascual
+.. |maintainer-rafaelbn| image:: https://github.com/rafaelbn.png?size=40px
+    :target: https://github.com/rafaelbn
+    :alt: rafaelbn
+.. |maintainer-Andrii9090| image:: https://github.com/Andrii9090.png?size=40px
+    :target: https://github.com/Andrii9090
+    :alt: Andrii9090
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-EmilioPascual| 
+|maintainer-EmilioPascual| |maintainer-rafaelbn| |maintainer-Andrii9090| 
 
-This module is part of the `OCA/crm <https://github.com/OCA/crm/tree/17.0/crm_project_task>`_ project on GitHub.
+This module is part of the `OCA/crm <https://github.com/OCA/crm/tree/18.0/crm_project_task>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
