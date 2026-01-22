@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-crm"
-version = "18.0.20260116.0"
+version = "18.0.20260122.0"
 dependencies = [
     "odoo-addon-crm_claim==18.0.*",
     "odoo-addon-crm_date_deadline_required==18.0.*",
@@ -13,6 +13,7 @@ dependencies = [
     "odoo-addon-crm_lead_vat==18.0.*",
     "odoo-addon-crm_location==18.0.*",
     "odoo-addon-crm_partner_assign==18.0.*",
+    "odoo-addon-crm_partner_employee_quantity==18.0.*",
     "odoo-addon-crm_partner_required==18.0.*",
     "odoo-addon-crm_phonecall==18.0.*",
     "odoo-addon-crm_phonecall_planner==18.0.*",
