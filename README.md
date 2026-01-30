@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [crm_partner_capital](crm_partner_capital/) | 18.0.1.0.0 | <a href='https://github.com/adasatorres'><img src='https://github.com/adasatorres.png' width='32' height='32' style='border-radius:50%;' alt='adasatorres'/></a> | This addon extends the functionality of partner_capital
 [crm_partner_employee_quantity](crm_partner_employee_quantity/) | 18.0.1.0.0 |  | Show partner employee quantity in CRM leads
 [crm_partner_required](crm_partner_required/) | 18.0.1.0.2 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Field partner required in the opportunity
-[crm_phonecall](crm_phonecall/) | 18.0.1.0.3 |  | CRM Phone Calls
+[crm_phonecall](crm_phonecall/) | 18.0.1.1.0 |  | CRM Phone Calls
 [crm_phonecall_planner](crm_phonecall_planner/) | 18.0.1.0.0 |  | Schedule phone calls according to some criteria
 [crm_phonecall_result](crm_phonecall_result/) | 18.0.1.0.0 |  | Adds phone call result tracking and reporting to CRM phonecalls
 [crm_phonecall_summary_predefined](crm_phonecall_summary_predefined/) | 18.0.1.0.0 |  | Allows to choose from a defined summary list
