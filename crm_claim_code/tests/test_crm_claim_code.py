@@ -5,6 +5,8 @@
 
 from odoo.tests import common
 
+from .. import hooks as mig
+
 
 class TestCrmClaimCode(common.TransactionCase):
     @classmethod
@@ -34,3 +36,10 @@ class TestCrmClaimCode(common.TransactionCase):
 
     def _get_next_code(self):
         return self.crm_sequence.get_next_char(self.crm_sequence.number_next_actual)
+
+    def test_assign_old_sequences_returns_if_field_already_exists(self):
+        mig.new_field_code_added = False
+        claim = self.crm_claim_model.create({"name": "Claim no change"})
+        claim.write({"code": "KEEP"})
+        mig.assign_old_sequences(self.env)
+        self.assertEqual(claim.code, "KEEP")
