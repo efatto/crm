@@ -97,8 +97,8 @@ msgstr "Informazioni aggiuntive"
 #. module: crm_phonecall
 #: model:ir.model.fields,help:crm_phonecall.field_crm_phonecall__partner_state
 msgid ""
-"Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
-msgstr "Divisione amministrativa della nazione. Es. Stato, Regione, Provincia"
+"Administrative divisions of a country. E.g. Fed. State, Department, Canton"
+msgstr ""
 
 #. module: crm_phonecall
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall2phonecall__user_id
@@ -947,6 +947,12 @@ msgstr "CAP"
 #: model:ir.model.fields,field_description:crm_phonecall.field_crm_phonecall__partner_zip
 msgid "Zip"
 msgstr "CAP"
+
+#~ msgid ""
+#~ "Administrative divisions of a country. E.g. Fed. State, Departement, "
+#~ "Canton"
+#~ msgstr ""
+#~ "Divisione amministrativa della nazione. Es. Stato, Regione, Provincia"
 
 #~ msgid "SMS Delivery error"
 #~ msgstr "Errore consegna SMS"
