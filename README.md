@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [crm_claim](crm_claim/) | 18.0.1.0.0 |  | Track your customers/vendors claims and grievances.
+[crm_claim_code](crm_claim_code/) | 18.0.1.0.0 |  | Sequential Code for Claims
 [crm_claim_type](crm_claim_type/) | 18.0.1.0.1 |  | Claim types for CRM
 [crm_date_deadline_required](crm_date_deadline_required/) | 18.0.1.0.0 | <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Field date deadline required in the opportunity
 [crm_industry](crm_industry/) | 18.0.1.0.2 |  | Link leads/opportunities to industries
