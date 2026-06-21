@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-06-21 17:34+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,16 +15,17 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: crm_stage_mail
 #: model:ir.model,name:crm_stage_mail.model_crm_stage
 msgid "CRM Stages"
-msgstr ""
+msgstr "CRM stopnje"
 
 #. module: crm_stage_mail
 #: model:ir.model.fields,field_description:crm_stage_mail.field_crm_stage__mail_template_id
 msgid "Email Template"
-msgstr ""
+msgstr "Predloga e-pošte"
 
 #. module: crm_stage_mail
 #: model:ir.model.fields,help:crm_stage_mail.field_crm_stage__mail_template_id
@@ -31,8 +33,10 @@ msgid ""
 "If set, an email will be automatically sent to the partner when the lead "
 "reaches this stage."
 msgstr ""
+"Če je ta možnost nastavljena, bo partnerju samodejno poslano e-poštno "
+"sporočilo, ko indic doseže to stopnjo."
 
 #. module: crm_stage_mail
 #: model:ir.model,name:crm_stage_mail.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr ""
+msgstr "Indic/priložnost"
