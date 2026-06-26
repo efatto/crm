@@ -6,7 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-06-26 07:48+0000\n"
+"Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: none\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -14,28 +15,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: crm_security_group
 #: model:res.groups,name:crm_security_group.group_crm_manager
 msgid "Administrator"
-msgstr ""
+msgstr "Administrator"
 
 #. module: crm_security_group
 #: model:ir.module.category,name:crm_security_group.module_category_crm_crm
 msgid "CRM"
-msgstr ""
+msgstr "CRM"
 
 #. module: crm_security_group
 #: model:res.groups,name:crm_security_group.group_crm_all_leads
 msgid "User: All Documents"
-msgstr ""
+msgstr "Uporabnik: vsi dokumenti"
 
 #. module: crm_security_group
 #: model:res.groups,name:crm_security_group.group_crm_own_leads
 msgid "User: Own Documents Only"
-msgstr ""
+msgstr "Uporabnik: le svoji dokumenti"
 
 #. module: crm_security_group
 #: model:res.groups,name:crm_security_group.group_crm_team_leads
 msgid "User: Team Documents Only"
-msgstr ""
+msgstr "Uporabnik: le dokumenti ekipe"
